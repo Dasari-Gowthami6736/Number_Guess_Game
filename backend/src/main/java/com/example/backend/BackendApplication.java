@@ -1,13 +1,13 @@
-package com.example.guessgame;
+package com.example.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class NumberGuessGameApplication {
+public class BackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(NumberGuessGameApplication.class, args);
+		SpringApplication.run(BackendApplication.class, args);
 	}
 
 }
