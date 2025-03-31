@@ -16,7 +16,7 @@ import java.util.Random;
 
 @RestController
 @RequestMapping("/api/game")
-@CrossOrigin(origins = "http://localhost:5173")  // Allow frontend requests
+@CrossOrigin(origins = "https://gowthamigame1.netlify.app/")  // Allow frontend requests
 public class GameController {
 
     private final GameSessionRepository gameSessionRepository;
