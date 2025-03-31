@@ -7,7 +7,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -16,7 +15,7 @@ import java.util.Random;
 
 @RestController
 @RequestMapping("/api/game")
-@CrossOrigin(origins = "http://localhost:5173")  // Allow frontend requests
+@CrossOrigin(origins = "https://gowthamigame1.netlify.app/")  // Allow frontend requests
 public class GameController {
 
     private final GameSessionRepository gameSessionRepository;
