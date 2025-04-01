@@ -15,7 +15,7 @@ const UserList = () => {
 
   const fetchAllUsers = async () => {
     try {
-      const response = await fetch("http://localhost:8080/api/game/users");
+      const response = await fetch("https://number-guess-game-pta4.onrender.com/api/game/users");
       const data = await response.json();
 
       if (response.ok) {

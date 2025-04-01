@@ -19,7 +19,7 @@ const NumberGuessGame = () => {
     }
 
     try {
-      const response = await fetch("http://localhost:8080/api/game/start", {
+      const response = await fetch("https://number-guess-game-pta4.onrender.com/api/game/start", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, level }),
@@ -48,7 +48,7 @@ const NumberGuessGame = () => {
     }
 
     try {
-      const response = await fetch("http://localhost:8080/api/game/guess", {
+      const response = await fetch("https://number-guess-game-pta4.onrender.com/api/game/guess", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, guess: numGuess }),
