@@ -1,5 +1,5 @@
 # Stage 1: Build the Spring Boot application
-FROM maven:3.8.6-openjdk-17 AS builder
+FROM maven:3.8.8-eclipse-temurin-17 AS builder
 WORKDIR /app
 
 # Copy pom.xml and source code
